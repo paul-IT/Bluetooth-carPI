@@ -10,6 +10,7 @@ A Raspberry-PI
 - Tkinter, python2
 - bluetoothctl
 - Audiopulse
+- Jack-Socket
 
 HOW TO INSTALL :
 
@@ -30,16 +31,17 @@ Add the following line after the commented example ";resample-method = speex-flo
 
 start service:
 "pulseaudio -D"
-"systemctl bluetooth start"
+"systemctl start bluetooth"
 
 Run the interface :
 "python ./carPI.py" 
-#Better to run as services when the car drive
 
+
+#Better to run when RASP GUI run :
 "sudo nano /etc/xdg/lxsession/LXDE-pi/autostart"
-
-@lxpanel --profile LXDE-pi
-@pcmanfm --desktop --profile LXDE-pi
-@xscreensaver -no-splash
-bash /home/pi/car-run.sh
-point-rpi
+ADD THIS IN THE FILE :
+"@lxpanel --profile LXDE-pi"
+"@pcmanfm --desktop --profile LXDE-pi"
+"@xscreensaver -no-splash"
+"bash /home/pi/car-run.sh"
+"point-rpi"
