@@ -50,3 +50,7 @@ ADD THIS IN THE FILE :
 "bash /home/pi/car-run.sh"
 "point-rpi"
 
+THE NEXT STEP OF MY PROJECT :
+- A better interface
+- Add GPS
+- Camera Control
