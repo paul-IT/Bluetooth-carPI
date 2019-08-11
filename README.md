@@ -6,7 +6,8 @@ This APP is GUI for car with touchscreen for manage song's. Bluetooth in CAR (Pr
 pre-requisite :
 A Screen 800x480 or modify resolution in "carPI.py"
 My touchscreen : https://www.kubii.fr/ecrans-afficheurs/2331-ecran-tactile-7-800x480-kubii-3272496012523.html
-A Raspberry-PI
+
+- Raspberry-PI 4
 - Tkinter, python2
 - bluetoothctl
 - Audiopulse
