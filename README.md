@@ -1,4 +1,4 @@
-# carPI Raspbian GUI for car with touchscreen for manage song's. Bluetooth in CAR (Previous,Pause,Next,title...)
+# carPI : Raspbian GUI for car with touchscreen for manage song's. Bluetooth in CAR (Previous,Pause,Next,title...)
 
 ## VERSION 1 ##
 This APP is GUI for car with touchscreen for manage song's. Bluetooth in CAR (Previous,Pause,Next,title...)
