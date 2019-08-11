@@ -39,7 +39,8 @@ Run the interface :
 
 
 #Better to run when RASP GUI run :
-"sudo nano /etc/xdg/lxsession/LXDE-pi/autostart"
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+
 ADD THIS IN THE FILE :
 "@lxpanel --profile LXDE-pi"
 "@pcmanfm --desktop --profile LXDE-pi"
